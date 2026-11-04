@@ -1,18 +1,25 @@
-# L6_L7_47 — Fuel Station
+## Lab 6 – Code and Branch Coverage Analysis
 
-Lab 6: Code and Branch Coverage
+### Objective
+To analyze the Fuel Station application using pytest and measure code coverage and branch coverage.
 
-## About
+### Tools Used
+- Python
+- pytest
+- coverage.py
 
-A small Python module that works out fuel bills by grade, litres and loyalty tier, checks whether a pump request is allowed and reports pump session status.
+### Test Files
+- CodeCoverageTest_PES2UG24CS178_application.py
+- BranchCoverageTest_PES2UG24CS178_application.py
 
-## Files
+### Execution
+Code coverage was measured using coverage.py.
 
-| File | Description |
-|------|-------------|
-| `fuel_station.py` | The module under test |
-| `test_fuel_station.py` | Starter test file |
+Branch coverage was measured using coverage.py with the `--branch` option.
 
-Keep all your Lab 6 work in this `LAB6` folder. Lab 7 will be added to this repo later.
+### Results
+- Code Coverage: 100%
+- Branch Coverage: 100%
 
-Refer to the lab handout for instructions.
+### Conclusion
+Test cases were created for the Fuel Station application to cover all executable statements and branches. Both code coverage and branch coverage reached 100%.
